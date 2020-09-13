@@ -3,6 +3,7 @@ module.exports = {
     title: `Gatsby Course Project`,
     description: `This project is a result of the course gatsby.`,
     author: `@mocariz`,
+    position: 'Frontend Developer'
   },
   plugins: [
     `gatsby-plugin-styled-components`,
