@@ -14,7 +14,6 @@ const BlogPost = ({ data }) => {
       <SEO title={post.frontmatter.title} />
       
       <S.PostHeader>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>	        
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
