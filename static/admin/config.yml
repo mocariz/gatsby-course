@@ -2,7 +2,6 @@ backend:
   name: github
   repo: mocariz/gatsby-course
   branch: master
-  site_domain: http://mocariz-gatsby-course.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
