@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 
 const PostItem = ({ slug, category, date, timeToRead, title, description, backgroundColor }) => (
-  <S.PostItemLink to={slug}>
+  <S.PostItemLink fade to={slug}>
     <S.PostItemWrapper>
       <S.PostItemTag background={backgroundColor}>{category}</S.PostItemTag>
       <S.PostItemInfo>
